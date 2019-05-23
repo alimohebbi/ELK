@@ -31,7 +31,7 @@ specially for running elasticksearch as a service. Installation steps are summer
     ps -p 1
     ```
 
-####a. Running Elasticsearch with SysV init 
+#### a. Running Elasticsearch with SysV init 
     Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
     
    ```
@@ -42,8 +42,8 @@ specially for running elasticksearch as a service. Installation steps are summer
         sudo -i service elasticsearch start
         sudo -i service elasticsearch stop
     
-    ####Running Elasticsearch with `systemd
-    Refer to the doc available in provided link 
+#### Running Elasticsearch with `systemd
+Refer to the doc available in provided link 
 
 
   
