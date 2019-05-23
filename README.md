@@ -6,7 +6,8 @@ It is easier to install from debian package because it is require less configura
 specially for running elasticksearch as a service. Installation steps are summerized as follow:
 
 1. Download and install the public signing key:
-    ``` bash
+   
+    ```
     wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
     ```
 2. You may need to install the apt-transport-https package on Debian before proceeding:
@@ -30,7 +31,7 @@ specially for running elasticksearch as a service. Installation steps are summer
     ps -p 1
     ```
 
-    ####a. Running Elasticsearch with SysV init 
+####a. Running Elasticsearch with SysV init 
     Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
     
    ```
