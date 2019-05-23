@@ -1,4 +1,3 @@
-
 # ELK
 
 ## Install Elasticsearch
@@ -34,7 +33,7 @@ Installation steps are summerized as follow:
     ps -p 1
     ```
 
-#### a. Running Elasticsearch with SysV init 
+#### a. Running Elasticsearch with `SysV` init 
 Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
  
  
