@@ -16,10 +16,10 @@ specially for running elasticksearch as a service. Installation steps are summer
     sudo apt-get install apt-transport-https
     ``` 
 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
-
-   ```
-   echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
-   ```
+    
+    ```
+    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+    ```
 4. You can install the Elasticsearch Debian package with:
 
     ```
