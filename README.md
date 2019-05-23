@@ -42,7 +42,7 @@ specially for running elasticksearch as a service. Installation steps are summer
         sudo -i service elasticsearch start
         sudo -i service elasticsearch stop
     
-#### Running Elasticsearch with `systemd
+#### b. Running Elasticsearch with `systemd
 Refer to the doc available in provided link 
 
 
