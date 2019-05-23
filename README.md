@@ -1,3 +1,4 @@
+
 # ELK
 
 ## Install Elasticsearch
@@ -34,18 +35,15 @@ Installation steps are summerized as follow:
     ```
 
 #### a. Running Elasticsearch with SysV init 
-    Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
-    
-   ```
-   sudo update-rc.d elasticsearch defaults 95 10
-   ```
+Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
+ 
+ 
+	sudo update-rc.d elasticsearch defaults 95 10
+ 
    Elasticsearch can be started and stopped using the service command:
-   
-        sudo -i service elasticsearch start
-        sudo -i service elasticsearch stop
-    
-#### b. Running Elasticsearch with `systemd
+
+	   sudo -i service elasticsearch start
+	   sudo -i service elasticsearch stop
+
+#### b. Running Elasticsearch with `systemd`
 Refer to the doc available in provided link 
-
-
-  
