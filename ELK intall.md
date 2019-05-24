@@ -14,7 +14,7 @@ Installation steps are summerized as follow:
     ```
 2. You may need to install the apt-transport-https package on Debian before proceeding:
 
-    ```
+    ```sh
     sudo apt-get install apt-transport-https
     ``` 
 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
@@ -36,14 +36,15 @@ Installation steps are summerized as follow:
 #### a. Running Elasticsearch with `SysV` init 
 Use the update-rc.d command to configure Elasticsearch to start automatically when the system boots up:
  
- 
-	sudo update-rc.d elasticsearch defaults 95 10
- 
+```sh
+sudo update-rc.d elasticsearch defaults 95 10
+```
    Elasticsearch can be started and stopped using the service command:
 
-	   sudo -i service elasticsearch start
-	   sudo -i service elasticsearch stop
-
+```sh
+sudo -i service elasticsearch start
+sudo -i service elasticsearch stop
+```
 #### b. Running Elasticsearch with `systemd`
 Refer to the doc available in provided link 
 
@@ -61,12 +62,12 @@ After changing configuration restart elasticsearch service.
 ## Installing Kibana
 1. Download and install the public signing key:
 
-```sh
+``` sh
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 * You may need to install the apt-transport-https package on Debian before proceeding:
 
-```
+``` sh
 sudo apt-get install apt-transport-https
 ```
 2. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
