@@ -50,7 +50,8 @@ Refer to the doc available in provided link
 ### Configure Elasticsearch
 Configuration file is placed in `/etc/elasticsearch/elasticsearch.yml`. You need to change at least two things in here. 
 * In network section change `network.host` for accecpting requests from outside, for    example when [Beats](https://www.elastic.co/products/beats) serviecs trying to       send data to elasticsearch. It is better to set it `0.0.0.0` to be sure it always    accepts outside's traffics. 
-* In discovery section a initial master node. You use this line:                       
+* In discovery section a initial master node. You use this line:                     
+
 ``` 
 cluster.initial_master_nodes: ["node-1"] 
 ```
@@ -79,7 +80,7 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update && sudo apt-get install kibana
 ````
 ### Runing Kibana
-Same as running [Elasticksearch](#runelastic). ss
+Same as running [Elasticksearch](#runelastic). 
 
 
 
