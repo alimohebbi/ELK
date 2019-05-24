@@ -108,7 +108,6 @@ output.elasticsearch:
 setup.kibana:
   host: "<kibana_url>"
 ```
-
 Where <password> is the password of the elastic user (It is `changeme` by default), <es_url> is the URL of Elasticsearch (for example `192.1168.200.180:9200`), and <kibana_url> is the URL of Kibana.
 
 
@@ -118,8 +117,7 @@ sudo metricbeat modules enable system
 ```
 You can also modify settings in the `/etc/metricbeat/modules.d/[module name].yml` file.
 
-4. Start metricbeat
-
+4. Start metricbeat.
 ```sh
 sudo metricbeat setup
 sudo service metricbeat start
