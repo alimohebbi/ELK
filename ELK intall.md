@@ -108,7 +108,7 @@ output.elasticsearch:
 setup.kibana:
   host: "<kibana_url>"
 ```
-Where <password> is the password of the elastic user (It is `changeme` by default), <es_url> is the URL of Elasticsearch (for example `192.1168.200.180:9200`), and <kibana_url> is the URL of Kibana.
+Where \<password> is the password of the elastic user (It is `changeme` by default), \<es_url> is the URL of Elasticsearch (for example `192.1168.200.180:9200`), and \<kibana_url> is the URL of Kibana.
 
 
 3. Enable and configure the modules. You can enable any module you like (for example system module) 
