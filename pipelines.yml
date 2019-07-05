@@ -1,0 +1,6 @@
+---
+- pipeline.id: my-dymmy
+  path.config: "/usr/share/logstash/pipeline/logstash.conf"
+
+- pipeline.id: openstack-p
+  path.config: "/usr/share/logstash/pipeline/openstack-p.conf"

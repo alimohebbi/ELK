@@ -34,11 +34,13 @@ services:
   logstash:
     image: docker.elastic.co/logstash/logstash:7.2.0
     container_name: logstash
-    volumes:
-       - ./logstash.conf:/config-dir/logstash.conf
-    command: logstash -f /config-dir/logstash.conf --config.reload.automatic
+    command: logstash --config.reload.automatic
     ports:
       - 5044:5044
+      - 8080:8080
     depends_on: 
       - elasticsearch    
+    volumes:
+      - ./pipeline:/usr/share/logstash/pipeline/
+      - ./pipelines.yml:/usr/share/logstash/pipelines.yml
 
