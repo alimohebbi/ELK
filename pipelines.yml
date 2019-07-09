@@ -1,11 +1,20 @@
 ---
-- pipeline.id: openstack-p
-  path.config: "/usr/share/logstash/pipeline/openstack-p.conf"
+#- pipeline.id: openstack-p
+#  path.config: "/pipelines/openstack-p.conf"
 
-- pipeline.id: log-test
-  path.config: "/usr/share/logstash/pipeline/logstash.conf"
+- pipeline.id: bono
+  path.config: "/pipeline/bono.conf"
 
-- pipeline.id: openstack-p
-  path.config: "/usr/share/logstash/pipeline/clearwater-p.conf"
+- pipeline.id: dime
+  path.config: "/pipeline/dime.conf"
+
+- pipeline.id: sprout
+  path.config: "/pipeline/sprout.conf"
+
+- pipeline.id: vellum
+  path.config: "/pipeline/vellum.conf"
+
+- pipeline.id: general
+  path.config: "/pipeline/general-clearwater.conf"
 
 

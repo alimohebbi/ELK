@@ -41,6 +41,6 @@ services:
     depends_on: 
       - elasticsearch    
     volumes:
-      - ./pipeline:/usr/share/logstash/pipeline/
-      - ./pipelines.yml:/usr/share/logstash/pipelines.yml
+      - ./pipeline:/pipeline
+      - ./pipelines.yml:/usr/share/logstash/config/pipelines.yml
       - ./mib-dic:/mib-dic
