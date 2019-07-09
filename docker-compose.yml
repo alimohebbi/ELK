@@ -43,4 +43,4 @@ services:
     volumes:
       - ./pipeline:/usr/share/logstash/pipeline/
       - ./pipelines.yml:/usr/share/logstash/pipelines.yml
-
+      - ./mib-dic:/mib-dic

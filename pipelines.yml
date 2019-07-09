@@ -1,3 +1,11 @@
 ---
 - pipeline.id: openstack-p
   path.config: "/usr/share/logstash/pipeline/openstack-p.conf"
+
+- pipeline.id: log-test
+  path.config: "/usr/share/logstash/pipeline/logstash.conf"
+
+- pipeline.id: openstack-p
+  path.config: "/usr/share/logstash/pipeline/clearwater-p.conf"
+
+
