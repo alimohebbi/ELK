@@ -1,6 +1,6 @@
 ---
-#- pipeline.id: openstack-p
-#  path.config: "/pipelines/openstack-p.conf"
+- pipeline.id: openstack
+  path.config: "/pipeline/openstack.conf"
 
 - pipeline.id: bono
   path.config: "/pipeline/bono.conf"
