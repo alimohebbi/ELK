@@ -1,4 +1,5 @@
 ---
+
 - pipeline.id: openstack
   path.config: "/pipeline/openstack.conf"
 
