@@ -1,0 +1,8 @@
+---
+
+- pipeline.id: dime
+  path.config: "/pipeline/dime.conf"
+
+- pipeline.id: sprout
+  path.config: "/pipeline/sprout.conf"
+

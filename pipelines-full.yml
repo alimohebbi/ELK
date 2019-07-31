@@ -8,8 +8,17 @@
 - pipeline.id: dime
   path.config: "/pipeline/dime.conf"
 
-- pipeline.id: sprout
-  path.config: "/pipeline/sprout.conf"
+- pipeline.id: sprout-0
+  path.config: "/pipeline/sprout-0.conf"
+
+- pipeline.id: sprout-1
+  path.config: "/pipeline/sprout-1.conf"
+
+- pipeline.id: sprout-2
+  path.config: "/pipeline/sprout-2.conf"
+
+- pipeline.id: sprout-3
+  path.config: "/pipeline/sprout-3.conf"
 
 - pipeline.id: vellum
   path.config: "/pipeline/vellum.conf"
