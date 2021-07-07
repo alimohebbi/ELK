@@ -1,4 +1,6 @@
 # ELK
+## OpenStack security group
+Open 5601 and 9200 tcp ports in the security group rules
 
 ## Installing Elasticsearch
 Required steps are same as official docs for  [elasticsearch-7 installation guide](https://www.elastic.co/guide/en/elasticsearch/reference/7.1/deb.html).
